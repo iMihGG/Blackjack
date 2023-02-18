@@ -1,0 +1,24 @@
+Blackjack Game
+Time for implementation - 15 hours
+-------------------------------------------------------------------------------
+    This is a simple command-line version of the popular casino game Blackjack.
+The game allows the user to play against a dealer, with the goal of getting as
+close to 21 points as possible without going over. The game features a basic
+graphic interface and is written in C using the ncurses library.
+    The game was created using multiple functions for both logical and graphic
+pursposes.The game begins with a welcome message and prompt for the user to
+enter his bet. Once the user has entered his bet, the game will start.During
+the game, the user will be prompted to make a series of choices.They can choose
+to hit (take another card), stand (keep their current hand), or quit the game.
+The dealer will also make choices based on the cards they are dealt.The game
+ends when either the user or the dealer goes over 21 points, or when the user
+chooses to quit the game.
+    The functions heart, spade, club, diamond and deck are for displaying cards
+and, thus contributing to the GUI of this application.Moreover, there are
+several windows which act as menus and improve the decision-making process ,
+also built with the ncurses library.The logic of the game is implemented 
+through the game functions, which consideres both the player's and the dealer's
+perspective.The dealer acts as a bot which always plays the perfect moves, even
+though he can't always win.There are even considered the numbers of aces which
+the dealer has and if it's in his advantage to trasnform them from 11 to 1 or
+vice-versa.
