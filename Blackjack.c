@@ -689,6 +689,7 @@ int main() {
     addDeck(c);
     bkgd(COLOR_PAIR(3));
     game(c);
+    free(c);
     getch();
     endwin();
 
